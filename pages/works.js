@@ -1,19 +1,19 @@
 import Image from "next/image";
-import One from "../public/images/1.png";
-import Two from "../public/images/2.jpg";
-import Three from "../public/images/3.jpg";
-import Four from "../public/images/4.jpg";
-import Five from "../public/images/5.jpg";
-import Six from "../public/images/6.jpg";
+import One from "../public/images/01.png";
+import Two from "../public/images/02.png";
+import Three from "../public/images/03.png";
+import Four from "../public/images/04.png";
+import Five from "../public/images/05.png";
+import Six from "../public/images/006.png";
 import { Element } from "react-scroll";
 
 function works() {
 	return (
 		<Element id="work" name="work">
 			<div className="w-full my-20 h-auto flex flex-col justify-center items-center  ">
-				<p className="text-sm uppercase text-gray-400">Portfolio</p>
-				<h1 className="text-indigo-900 text-6xl font-bold text-center">
-					All Creative Works
+				<p className=" uppercase text-rose-500 uppercase font-bold">Portfolio</p>
+				<h1 className="text-black text-6xl text-center">
+					Trabalhos Realizados
 				</h1>
 				<div className="md:flex sm:flex-col md:flex-row justify-center items-center gap-10 mt-10">
 					<div className="rounded w-80 h-60 shadow-xl relative">

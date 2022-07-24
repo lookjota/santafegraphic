@@ -8,8 +8,13 @@ import Works from "./works";
 import Clients from "./clients";
 import Contact from "./contact";
 import Footer from "../components/Footer";
+import FooterInfo from "../components/FooterInfo";
 import Slide from './slide.js'
 import Header from './Header.js'
+import FullServices from "./fullServices";
+import About from './about'
+import Doing from './doing'
+import AboutUs from './aboutUs'
 
 export default function Home() {
 	return (
@@ -23,10 +28,15 @@ export default function Home() {
 			<HomePage />
       <Header />
       <Slide />
-			<Services />
+      <FullServices/>
 			<Works />
+      <AboutUs />
 			<Clients />
-			<Contact />
+      <Doing />
+      <About />
+			{/* <Services /> */}
+			{/* <Contact /> */}
+      <FooterInfo/>
 			<Footer />
 		</div>
 	);
