@@ -8,9 +8,10 @@ import { Element } from "react-scroll";
 function Home() {
 	return (
 		<Element id="home" name="home">
+
 			<div>
         <div className=" text-center md:mx-20 md:pt-32 pt-28 ">
-            <div className="text-center bg-gray-50 text-gray-800 py-20 px-6">
+            <div className="text-center  text-gray-800 py-20 px-6">
                {/* <h1 className="text-5xl font-bold mt-0 mb-6">Heading</h1> */}
                <img className="inline-block  text-5xl h-44  font-bold mt-0 mb-6" src="images/logo0.png" />
               <h3 className="text-xl font-italic mb-8">Entregamos materiais e impressões de alta qualidade em Brasília-DF.</h3>
@@ -25,6 +26,7 @@ function Home() {
             </div>
 				</div>
 			</div>
+      
 		</Element>
 	);
 }

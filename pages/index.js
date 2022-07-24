@@ -9,7 +9,6 @@ import Clients from "./clients";
 import Contact from "./contact";
 import Footer from "../components/Footer";
 import FooterInfo from "../components/FooterInfo";
-import Slide from './slide.js'
 import Header from './Header.js'
 import FullServices from "./fullServices";
 import About from './about'
@@ -27,7 +26,6 @@ export default function Home() {
 			<Navbar />
 			<HomePage />
       <Header />
-      <Slide />
       <FullServices/>
 			<Works />
       <AboutUs />
