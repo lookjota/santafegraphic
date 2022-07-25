@@ -43,6 +43,22 @@ function Footer() {
 
         </div>
 
+          <div className="flex flex-col items-center relative z-10">
+
+              <div className="relative text-center md:text-left mb-16 lg:mb-0 w-full lg:w-1/5">
+                <div className=" flex items-center justify-center lg:justify-start">
+                  <img className="w-8"/>
+                  <h5 className="text-center ml-2  font-black">
+                    ADE QD 3 Conjunto B Lote 13 Loja 1 Pró DF - Ceilândia, Brasília - DF, 72237-320
+                    <br/>
+                    <span className="text-xl"> Phone: (61) 3377-1700 </span> 
+                    <span className="text-xl"> Phone: (61) 99549-6939 </span> 
+                  </h5>
+                </div>
+              </div>
+
+          </div>
+
             <div className="text-center text-gray-500 dark:text-gray-200 pt-10 sm:pt-12 font-light flex items-center justify-center">
             © 2022 LisboaDev, Inc. All rights reserved Gráfica Santa Fé.
             </div>
