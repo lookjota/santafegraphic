@@ -6,14 +6,17 @@ import Image from "next/image";
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
+
+
+    
 		<div>
-			<nav className=" fixed z-20 bg-white w-full">
+			<nav className=" fixed z-20 bg-white w-full rounded-lg">
 				<div className="w-full">
 					<div className="flex items-center h-16 w-full ">
 						<div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
 								<h1 className=" font-bold text-xl cursor-pointer">
-									Stream<span className="text-blue-500">line</span>
+									<img className="h-14" src="/images/logo0.png"/>
 								</h1>
 							</div>
 							<div className="hidden md:block">
@@ -75,7 +78,9 @@ function Navbar() {
 
 							<div className="flex justify-center items-center flex-shrink-0 ">
 								<h1 className=" font-semibold text-lg cursor-pointer hidden md:block">
-									Say <span className="text-blue-500">hi</span>
+                  <a href="#" className="block bg-rose-500 hover:bg-rose-600 py-1 px-2 text-lg text-white font-bold rounded-lg">
+                    Enviar Mensagem
+                  </a>
 								</h1>
 							</div>
 						</div>
@@ -208,7 +213,7 @@ function Navbar() {
 									duration={500}
 									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Say<span className="text-black">hi</span>
+									Enviar Mensagem 
 								</Link>
 							</div>
 						</div>

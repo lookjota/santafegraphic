@@ -10,9 +10,9 @@ function clients() {
 		<Element id="Clients" name="Clients">
 			<div>
 				<div className="w-full my-20 h-auto flex flex-col justify-center items-center">
-					<p className="text-sm uppercase text-gray-400">Clients</p>
-					<h1 className="text-indigo-900 text-6xl font-bold text-center">
-						My Clients
+					<p className="text-sm uppercase font-bold text-black">Clientes</p>
+					<h1 className="text-blue-500 text-6xl font-bold text-center">
+						Meus Clientes
 					</h1>
 					<div className="flex justify-between text-center mx-20 my-10 md:gap-10 gap-2">
 						<div className="flex justify-center items-center cursor-pointer">

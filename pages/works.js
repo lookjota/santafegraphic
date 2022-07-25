@@ -15,7 +15,7 @@ function works() {
        {/* <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex absolute"  src="./images/bg.jpg" /> */}
 			<div className="w-full my-20 h-auto flex flex-col justify-center items-center  ">
 				{/* <p className=" uppercase text-white uppercase font-bold">Portfolio</p> */}
-				<p className=" uppercase text-rose-500 uppercase font-bold">Portfolio</p>
+				<p className=" uppercase text-blue-500 uppercase font-bold">Portfolio</p>
 				<h1 className="text-black text-6xl text-center">
 					Trabalhos Realizados
 				</h1>
@@ -78,10 +78,10 @@ function works() {
 					</div>
 				</div>
 
-				<h1 className="text-blue-900 text-base my-10">
-					Discover all projects on{" "}
+				<h1 className="text-blue-500 font-bold text-base my-10">
+					Todos os direitos reservados{" "}
 					<a href="#" className="text-black font-semibold">
-						dribbble{" "}
+						Gráfica Santa fé{" "}
 					</a>
 				</h1>
 			</div>

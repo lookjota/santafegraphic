@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 import Works from "./works";
 import Clients from "./clients";
 import Footer from "../components/Footer";
-import FooterInfo from "../components/FooterInfo";
+import FooterFull from "./footer";
 import Header from './Header.js'
 import FullServices from "./fullServices";
 import About from './about'
@@ -30,8 +30,9 @@ export default function Home() {
 			<Clients />
       <Doing />
       <About />
-      <FooterInfo/>
-			<Footer />
+      <FooterFull />
+			{/* <Footer /> */}
+
 		</div>
 	);
 }

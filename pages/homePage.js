@@ -8,37 +8,22 @@ import { Element } from "react-scroll";
 function Home() {
 	return (
 <div>
-    <div className=" relative overflow-hidden h-screen h-1/3 rounded-3xl">
+    <div className=" relative overflow-hidden h-screen h-1/4 rounded-3xl">
     {/* <div className=" relative overflow-hidden h-screen h-1/3 rounded-3xl"> */}
     <img src="/images/bg.jpg" className="absolute h-full w-full object-cover rounded-3xl"/>
-    <div className="inset-0 bg-black opacity-25 absolute">
+    <div className="inset-0 bg-grey-900 opacity-25 absolute">
     </div>
-    <header className="absolute top-0 left-0 right-0 z-20">
-        <nav className="container mx-auto px-6 md:px-12 py-4">
-            <div className="md:flex justify-center items-center">
-                <div className="flex justify-between items-center">
-                    <div className="md:hidden">
-                        <button className="text-white focus:outline-none">
-                            <svg className="h-12 w-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                </path>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
     <div className="container mx-auto px-6 md:px-12 relative z-10 flex items-center py-32 xl:py-40">
         <div className="w-full flex flex-col items-center relative z-10">
             <h1 className="font-extrabold text-7xl text-center sm:text-8xl text-white leading-tight mt-4">
                 <img className="h-44" src="images/logo0.png"/>
             </h1>
+            <p className="pt-1 font-semibold text-center">A Gráfica Santa Fé entrega materiais e impressões de alta qualidade em Brasília-DF.</p>
             {/* <h1 className="font-extrabold text-7xl text-center sm:text-8xl text-white leading-tight mt-4">
                 Life-changing
             </h1> */}
-            <a href="#" className="block bg-gray-800 hover:bg-gray-900 py-3 px-4 text-lg text-white font-bold uppercase mt-10">
-                Start Now
+            <a href="#" className="block bg-rose-500 hover:bg-rose-600 py-3 px-4 text-lg text-white font-bold rounded-lg mt-10">
+                Fazer Orçamento
             </a>
         </div>
     </div>
