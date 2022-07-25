@@ -64,6 +64,7 @@ function Header() {
   return (
     
     <div className="flex flex-wrap justify-center rounded-3xl">
+      
     <div ref={slideRef} className=" w-5/6 select-none relative">
     {/* <div ref={slideRef} className="w-5/6 select-none relative"> */}
       

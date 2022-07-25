@@ -3,10 +3,8 @@ import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import HomePage from "./homePage";
 import Navbar from "../components/Navbar";
-import Services from "./services";
 import Works from "./works";
 import Clients from "./clients";
-import Contact from "./contact";
 import Footer from "../components/Footer";
 import FooterInfo from "../components/FooterInfo";
 import Header from './Header.js'
@@ -25,15 +23,13 @@ export default function Home() {
 			</Head>
 			<Navbar />
 			<HomePage />
-      <Header />
       <FullServices/>
 			<Works />
+      <Header />
       <AboutUs />
 			<Clients />
       <Doing />
       <About />
-			{/* <Services /> */}
-			{/* <Contact /> */}
       <FooterInfo/>
 			<Footer />
 		</div>
