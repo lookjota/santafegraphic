@@ -10,12 +10,12 @@ import { Element } from "react-scroll";
 function works() {
 	return (
     <div>
-		   <Element  id="work" name="work"> 
+		   <Element  id="projects" name="work"> 
        {/* <img className="w-full h-full object-cover absolute "  src="./images/bg.jpg" /> */}
        {/* <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex absolute"  src="./images/bg.jpg" /> */}
 			<div className="w-full my-20 h-auto flex flex-col justify-center items-center  ">
 				{/* <p className=" uppercase text-white uppercase font-bold">Portfolio</p> */}
-				<p className=" uppercase text-blue-500 uppercase font-bold">Portfolio</p>
+				<p className=" uppercase text-blue-500 uppercase font-bold">Projetos</p>
 				<h1 className="text-black text-6xl text-center">
 					Trabalhos Realizados
 				</h1>

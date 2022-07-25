@@ -1,50 +1,50 @@
-import Link from 'next/link';
-import react from 'react'
 
 
 function Footer() {
 	return (
 
 
-<footer className="bg-white dark:bg-gray-800 w-full py-8">
+<footer id="contact" className="bg-white dark:bg-gray-800 w-full py-8">
+
     <div className="max-w-screen-xl mx-auto px-4">
-        <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
+        <ul className="max-w-screen-md mx-auto text-lg flex flex-wrap justify-between">
             <li className="my-2">
-                <a className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
-                    FAQ
+                <a className="text-blue-500 hover:scale-100 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#home">
+                    Principal
                 </a>
             </li>
             <li className="my-2">
-                <a className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
-                    Configuration
+                <a className="text-black hover:text-blue-500 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#services">
+                    Serviços
                 </a>
             </li>
             <li className="my-2">
-                <Link className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
-                    Github
-                </Link>
+                <a className="text-black hover:text-blue-500 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#projects">
+                    Projetos
+                </a>
             </li>
             <li className="my-2">
-                <a className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#">
-                    LinkedIn
+                <a className="text-black hover:text-blue-500 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" href="#about">
+                    Sobre
                 </a>
             </li>
         </ul>
         <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
-            <a href="https://google.com" className="text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-              <img src="/images/Whatsapp.svg" />
+            <a href="https://api.whatsapp.com/send?phone=556199549-6939&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_back" className=" hover:scale-110  dark:hover:scale-110 ">
+              <img src="/images/whats.svg" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-              <img src="../public/images/map.svg" />
+           
+            <a href="#" className="hover:scale-110 duration-300 ">
+              <img src="/images/location.png" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-              <img src="../public/images/instagram.svg" />
+            <a href="https://api.instagram.com/grafica.santafe/" target="_back" className=" hover:scale-110  dark:hover:scale-110 ">
+            <img src="/images/inst.svg" />
             </a>
 
         </div>
 
             <div className="text-center text-gray-500 dark:text-gray-200 pt-10 sm:pt-12 font-light flex items-center justify-center">
-                Created by Charlie
+            © 2022 LisboaDev, Inc. All rights reserved Gráfica Santa Fé.
             </div>
         </div>
     </footer>

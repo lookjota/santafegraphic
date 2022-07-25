@@ -15,9 +15,11 @@ function Navbar() {
 					<div className="flex items-center h-16 w-full ">
 						<div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-bold text-xl cursor-pointer">
-									<img className="h-14" src="/images/logo0.png"/>
-								</h1>
+								<a href="#home" className=" font-bold text-xl cursor-pointer">
+                  
+									  <img className="h-14 hover:scale-110" src="/images/logo0.png"/>
+                  
+								</a>
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
@@ -27,9 +29,9 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-blue-600 px-3 py-2 text-md"
+										className="cursor-pointer text-blue-500 px-3 py-2 text-md"
 									>
-										Home
+										Principal
 									</Link>
 									<Link
 										activeClass="services"
@@ -37,30 +39,30 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:text-blue-600 text-black  px-3 py-2"
+										className="cursor-pointer hover:text-blue-500 text-black  px-3 py-2"
 									>
-										Services
+										Serviços
 									</Link>
 									<Link
 										activeClass="work"
-										to="work"
+										to="projects"
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:text-blue-600 text-black px-3 py-2"
+										className="cursor-pointer hover:text-blue-500 text-black px-3 py-2"
 									>
-										Projects
+										Projetos
 									</Link>
 
 									<Link
 										activeClass="Clients"
-										to="Clients"
+										to="about"
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:text-blue-600 text-black px-3 py-2"
+										className="cursor-pointer hover:text-blue-500 text-black px-3 py-2"
 									>
-										Clients
+										Sobre
 									</Link>
 
 									<Link
@@ -69,18 +71,21 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer hover:text-blue-600 text-black px-3 py-2"
+										className="cursor-pointer hover:text-blue-500 text-black px-3 py-2"
 									>
-										Contact
+										Contatos
 									</Link>
 								</div>
 							</div>
 
 							<div className="flex justify-center items-center flex-shrink-0 ">
 								<h1 className=" font-semibold text-lg cursor-pointer hidden md:block">
-                  <a href="#" className="block bg-rose-500 hover:bg-rose-600 py-1 px-2 text-lg text-white font-bold rounded-lg">
-                    Enviar Mensagem
+                  <a href="https://api.whatsapp.com/send?phone=556199549-6939&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_back" className="">
+                    <img src="/images/whats.svg" className="hover:scale-110"/>
                   </a>
+                  {/* <a href="#" className="block bg-rose-500 hover:bg-rose-500 py-1 px-2 text-lg text-white font-bold rounded-lg">
+                    Enviar Mensagem
+                  </a> */}
 								</h1>
 							</div>
 						</div>
@@ -88,7 +93,7 @@ function Navbar() {
 							<button
 								onClick={() => setIsOpen(!isOpen)}
 								type="button"
-								className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-black focus:outline-none focus:ring-white"
+								className="bg-blue-500 inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-black focus:outline-none focus:ring-white"
 								aria-controls="mobile-menu"
 								aria-expanded="false"
 							>
@@ -153,9 +158,9 @@ function Navbar() {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Home
+									Principal
 								</Link>
 								<Link
 									href="/services"
@@ -164,32 +169,32 @@ function Navbar() {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Services
+									Serviços
 								</Link>
 
 								<Link
 									href="/work"
 									activeClass="work"
-									to="work"
+									to="projects"
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Projects
+									Projetos
 								</Link>
 								<Link
 									href="/Clients"
 									activeClass="Clients"
-									to="Clients"
+									to="about"
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Clients
+									Sobre
 								</Link>
 
 								<Link
@@ -199,22 +204,22 @@ function Navbar() {
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Contact
+									Contatos
 								</Link>
 
-								<Link
-									href="/hi"
+								<a
+									href="https://api.whatsapp.com/send?phone=556199549-6939&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_back"
 									activeClass="hi"
-									to="hi"
+									to=""
 									smooth={true}
 									offset={50}
 									duration={500}
-									className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+									className="cursor-pointer hover:bg-blue-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium"
 								>
-									Enviar Mensagem 
-								</Link>
+									<img src="/images/whats.svg" className="h-14" />
+								</a>
 							</div>
 						</div>
 					)}

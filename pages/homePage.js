@@ -8,7 +8,7 @@ import { Element } from "react-scroll";
 function Home() {
 	return (
 <div>
-    <div className=" relative overflow-hidden h-screen h-1/4 rounded-3xl">
+    <div id="home" className=" relative overflow-hidden h-screen h-1/4 rounded-3xl">
     {/* <div className=" relative overflow-hidden h-screen h-1/3 rounded-3xl"> */}
     <img src="/images/bg.jpg" className="absolute h-full w-full object-cover rounded-3xl"/>
     <div className="inset-0 bg-grey-900 opacity-25 absolute">
@@ -22,7 +22,7 @@ function Home() {
             {/* <h1 className="font-extrabold text-7xl text-center sm:text-8xl text-white leading-tight mt-4">
                 Life-changing
             </h1> */}
-            <a href="#" className="block bg-rose-500 hover:bg-rose-600 py-3 px-4 text-lg text-white font-bold rounded-lg mt-10">
+            <a href="https://api.whatsapp.com/send?phone=556199549-6939&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_back" className="block hover:scale-110 bg-rose-500 hover:bg-rose-600 py-3 px-4 text-lg text-white font-bold rounded-lg mt-10">
                 Fazer Orçamento
             </a>
         </div>
